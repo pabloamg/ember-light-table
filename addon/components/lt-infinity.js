@@ -3,7 +3,7 @@ import layout from '../templates/components/lt-infinity';
 import InViewportMixin from 'ember-in-viewport';
 import { get } from '@ember/object';
 
-export default Component.extend(InViewportMixin, {
+export default Component.extend({
   classNames: ['lt-infinity'],
   classNameBindings: ['viewportEntered:in-viewport'],
   layout,
